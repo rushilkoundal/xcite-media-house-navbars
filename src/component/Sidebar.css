@@ -1,4 +1,4 @@
-.sideNavbar__container{
+.sidebar{
     position: fixed;
     top: 0;
     right: 0;
@@ -9,11 +9,11 @@
     transition: 0.4s ease ;
 }
 
-.sideNavbar__container#hide{
+.sidebar#hide{
     right: -30%;
 }
 
-.sideNavbar__container#show{
+.sidebar#show{
     right: 0;
 }
 

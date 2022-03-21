@@ -15,7 +15,7 @@
 
 .icon-search {
     color: var(--white);
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .btn {
@@ -34,7 +34,7 @@
 }
 
 .btn-signup {
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 5% 10%;
     background: var(--crimson);
     color: var(--white);
