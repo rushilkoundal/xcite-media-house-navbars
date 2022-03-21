@@ -1,0 +1,41 @@
+.navbar__container {
+    width: 100%;
+    padding: 1% 8%;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: var(--family-Poppins);
+    font-weight: bold;
+    color: var(--white);
+}
+
+.icon-search {
+    color: var(--white);
+    margin-right: 30px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-family: var(--family-Roboto);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-login {
+    background: transparent;
+    font-family: var(--family-Roboto);
+    color: var(--white);
+}
+
+.btn-signup {
+    margin-left: 10px;
+    padding: 5% 10%;
+    background: var(--crimson);
+    color: var(--white);
+}

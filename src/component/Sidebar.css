@@ -1,0 +1,22 @@
+.sideNavbar__container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    z-index: 100;
+    background: #ccc;
+    transition: 0.4s ease ;
+}
+
+.sideNavbar__container#hide{
+    right: -30%;
+}
+
+.sideNavbar__container#show{
+    right: 0;
+}
+
+.chevron {
+    color: var(--white);
+}

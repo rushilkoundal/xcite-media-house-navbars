@@ -1,0 +1,21 @@
+.navbar__container {
+    width: 100%;
+    padding: 1% 8%;
+    background: var(--primary-color);
+}
+
+.nav-links {
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--family-Poppins);
+    font-weight: 400;
+}
+
+ul li a{
+    padding-right: 20px;
+}
+
+ul li a:last-child {
+    padding-right: 0;
+}
