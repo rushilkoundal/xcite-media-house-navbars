@@ -1,4 +1,11 @@
-.icon {
+.icon-menu {
     color: var(--white);
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .icon-menu {
+        display: unset;
+    }
 }
 

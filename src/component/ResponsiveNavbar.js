@@ -18,7 +18,7 @@ function ResponsiveNavbar() {
             <div className="logo center-row-left">
                 <a href="#">LOGO</a>
             </div>
-            <div className="icon navbar__container-menu center-row">
+            <div className="icon-menu navbar__container-menu center-row">
                 <ion-icon onClick={onClick} size='large' name="grid-outline"></ion-icon>
             </div>
             <Sidebar show={showSidebar} sidebar={sidebar}/>

@@ -1,13 +1,13 @@
-.navbar__container {
+/* .navbar__container {
     width: 100%;
     padding: 1% 8%;
     background: var(--primary-color);
-}
+} */
 
 .nav-links {
     color: var(--white);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: var(--family-Poppins);
     font-weight: 400;
 }
@@ -18,4 +18,28 @@ ul li a{
 
 ul li a:last-child {
     padding-right: 0;
+}
+
+.icon-social span {
+    padding-right: 20px;
+}
+
+.icon-social span:last-child {
+    padding-right: 0;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.icon-facebook {
+    color: #4267B2;
+}
+
+.icon-instagram {
+    color: #bc2a8d;
+}
+
+.icon-github {
+    color: var(--white);
 }
